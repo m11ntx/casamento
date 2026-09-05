@@ -30,8 +30,24 @@
     };
   }
 
+  // Datas "só a data" (ex.: "2014-09-06", sem hora/fuso — usadas em
+  // episodes.json e gallery.json) são interpretadas pelo `new Date(str)`
+  // nativo como meia-noite UTC. Ao exibir num fuso atrás de UTC (ex.: Brasil,
+  // UTC-3), isso "volta" um dia (6 de setembro virava 5). Datas com hora/fuso
+  // explícitos (ex.: "2014-09-06T00:00:00-03:00", usadas em couple.json) não
+  // têm esse problema e continuam via `new Date(str)` normalmente.
+  var DATE_ONLY_RE = /^(\d{4})-(\d{2})-(\d{2})$/;
+
+  function parseDateLocal(dateStr) {
+    var match = DATE_ONLY_RE.exec(dateStr);
+    if (match) {
+      return new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
+    }
+    return new Date(dateStr);
+  }
+
   function formatDate(dateStr, options) {
-    var date = new Date(dateStr);
+    var date = parseDateLocal(dateStr);
     if (isNaN(date.getTime())) return '';
     return date.toLocaleDateString('pt-BR', options || { day: '2-digit', month: 'long', year: 'numeric' });
   }
