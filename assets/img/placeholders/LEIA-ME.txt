@@ -1,0 +1,12 @@
+Estes arquivos SVG são placeholders visuais, claramente identificados na própria imagem
+("FOTO PLACEHOLDER" / "substitua por uma foto real").
+
+Eles existem apenas para que a estrutura do site funcione e possa ser visualizada antes
+de o conteúdo real (fotos do casal) ser inserido. Nenhum deles deve aparecer na versão
+final do site.
+
+Quando tiver as fotos reais:
+1. Otimize-as (veja LEIA-ME em assets/img/photos/thumb e assets/img/photos/full).
+2. Atualize os campos "thumb" e "full" em data/gallery.json, "cover" em data/episodes.json
+   e "photo" em data/people.json para apontar para os novos arquivos.
+3. Estes SVGs de placeholder podem então ser removidos com segurança.

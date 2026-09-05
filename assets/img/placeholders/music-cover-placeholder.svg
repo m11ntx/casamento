@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Capa de música placeholder">
+  <defs>
+    <linearGradient id="gm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a3b52"/>
+      <stop offset="1" stop-color="#16141b"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#gm)"/>
+  <text x="250" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="90" fill="#c9a15a">♪</text>
+  <text x="250" y="320" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#f5f1ea">CAPA PLACEHOLDER</text>
+  <text x="250" y="352" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#c9a15a">substitua pela capa real</text>
+</svg>

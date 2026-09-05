@@ -1,0 +1,126 @@
+.hero-banner {
+  position: relative;
+  min-height: 82vh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.hero-banner__media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  will-change: transform;
+}
+/*
+  Banner dinâmico: duas camadas empilhadas (ver HeroBanner.js) que fazem
+  crossfade entre si — só uma tem a classe .is-active por vez. O zoom sutil
+  (scale) e o parallax ficam no wrapper .hero-banner__media, aplicado via JS.
+
+  Cada camada (.hero-banner__slide) tem duas partes: um fundo desfocado da
+  própria foto (preenche tudo, pode cortar à vontade — é só ambientação) e a
+  foto real por cima, inteira, sem cortar (object-fit:contain). Isso evita
+  cortar cabeças/pés em fotos de celular que não têm a proporção larga do
+  banner.
+*/
+.hero-banner__slide {
+  position: absolute;
+  inset: -8% 0 0 0;
+  width: 100%;
+  height: 116%;
+  opacity: 0;
+  transition: opacity 1400ms ease;
+}
+.hero-banner__slide.is-active { opacity: 1; }
+.hero-banner__slide-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(40px) brightness(0.55) saturate(1.1);
+  transform: scale(1.15); /* esconde a borda desfocada do blur */
+}
+.hero-banner__slide-fg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* Vinheta sutil nas bordas — profundidade sem escurecer o centro da foto */
+.hero-banner__vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 45%, rgba(0, 0, 0, 0.55) 100%);
+}
+.hero-banner__gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, var(--color-bg) 4%, rgba(13, 12, 16, 0.55) 45%, transparent 80%);
+}
+.hero-banner__content {
+  position: relative;
+  z-index: 1;
+  padding: var(--space-6) var(--space-4) var(--space-6);
+  max-width: 760px;
+}
+.hero-banner__badge {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+}
+.hero-banner__title { font-size: clamp(2rem, 4vw + 1rem, 3.6rem); }
+.hero-banner__subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  max-width: 55ch;
+}
+.hero-banner__meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+  font-size: 0.85rem;
+}
+.hero-banner__meta-item { color: var(--color-text-muted); }
+.hero-banner__meta-item:not(:last-child)::after {
+  content: '•';
+  margin-left: var(--space-2);
+  color: var(--color-border);
+}
+.hero-banner__pill {
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 2px var(--space-2);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+.hero-banner__synopsis {
+  max-width: 60ch;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hero-banner__cta { margin-top: var(--space-2); }
+
+/* Animação de entrada — fade + leve subida, escalonada via animation-delay
+   inline em cada elemento. Sutil, sem exagero. */
+.hero-banner__reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  animation: hero-reveal 600ms ease forwards;
+}
+@keyframes hero-reveal {
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-banner__reveal { animation: none; opacity: 1; transform: none; }
+}
+
+@media (max-width: 768px) {
+  .hero-banner { min-height: 68vh; align-items: flex-end; }
+  .hero-banner__content { padding: var(--space-5) var(--space-3) var(--space-5); }
+  .hero-banner__synopsis { -webkit-line-clamp: 2; }
+}

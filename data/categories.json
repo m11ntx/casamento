@@ -1,0 +1,37 @@
+[
+  {
+    "id": "onde-comecou",
+    "label": "Onde Começou",
+    "color": "#8a3b52"
+  },
+  {
+    "id": "namoro",
+    "label": "Meses de Namoro",
+    "color": "#c9a15a"
+  },
+  {
+    "id": "viagens",
+    "label": "Viagens",
+    "color": "#4d7a8a"
+  },
+  {
+    "id": "ensaio-casamento",
+    "label": "Ensaio de Casamento",
+    "color": "#a35d3b"
+  },
+  {
+    "id": "casamento",
+    "label": "Casamento",
+    "color": "#b3667a"
+  },
+  {
+    "id": "ensaio-gestacao",
+    "label": "Ensaio Gestação",
+    "color": "#6fae8c"
+  },
+  {
+    "id": "filha",
+    "label": "Giovana",
+    "color": "#d4a5c9"
+  }
+]

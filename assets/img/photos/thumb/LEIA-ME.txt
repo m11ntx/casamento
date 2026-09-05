@@ -1,0 +1,5 @@
+Miniaturas (~640px) geradas automaticamente por tools/organize_photos.py a
+partir das fotos em assets/img/photos/full/ — usadas nos cartões da galeria.
+
+Não edite os arquivos aqui manualmente: eles são sobrescritos toda vez que o
+script roda de novo. Para adicionar fotos, veja tools/README.md.

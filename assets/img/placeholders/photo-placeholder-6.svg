@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Foto placeholder 6">
+  <defs>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b3667a"/>
+      <stop offset="1" stop-color="#16141b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g6)"/>
+  <text x="400" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#f5f1ea">FOTO PLACEHOLDER</text>
+  <text x="400" y="520" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#f5f1ea">substitua por uma foto real — 06</text>
+</svg>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aline & Julio — Nossa História</title>
+  <meta name="description" content="Aline & Julio celebram 12 anos de casados em 6 de setembro — a história dessa família, contada em fotos, do casamento em 2014 até hoje." />
+  <meta name="theme-color" content="#0d0c10" />
+
+  <!--
+    IMPORTANTE: estas tags (title, description, Open Graph, Twitter Card) são
+    o que aparece quando o link é compartilhado no WhatsApp/Facebook/Twitter/
+    Slack etc. A maioria desses serviços NÃO executa JavaScript ao gerar a
+    prévia — então, embora main.js também atualize título/descrição a partir
+    de data/config.json em tempo de execução (para quem abre o site num
+    navegador), isso não é visto por robôs de prévia. Ao personalizar o site,
+    atualize também os valores estáticos abaixo para que correspondam ao que
+    está em config.json.
+  -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Aline & Julio — Nossa História" />
+  <meta property="og:description" content="Aline & Julio celebram 12 anos de casados em 6 de setembro — a história dessa família, contada em fotos, do casamento em 2014 até hoje." />
+  <meta property="og:image" content="assets/img/social/share-cover.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aline & Julio — Nossa História" />
+  <meta name="twitter:description" content="Aline & Julio celebram 12 anos de casados em 6 de setembro — a história dessa família, contada em fotos, do casamento em 2014 até hoje." />
+  <meta name="twitter:image" content="assets/img/social/share-cover.png" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/img/icons/favicon-64.png" />
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components/intro.css" />
+  <link rel="stylesheet" href="assets/css/components/header.css" />
+  <link rel="stylesheet" href="assets/css/components/home.css" />
+  <link rel="stylesheet" href="assets/css/components/hero.css" />
+  <link rel="stylesheet" href="assets/css/components/story-info.css" />
+  <link rel="stylesheet" href="assets/css/components/carousel.css" />
+  <link rel="stylesheet" href="assets/css/components/gallery.css" />
+  <link rel="stylesheet" href="assets/css/components/album-grid.css" />
+  <link rel="stylesheet" href="assets/css/components/lightbox.css" />
+  <link rel="stylesheet" href="assets/css/components/moments.css" />
+  <link rel="stylesheet" href="assets/css/components/episodes.css" />
+  <link rel="stylesheet" href="assets/css/components/soundtrack.css" />
+  <link rel="stylesheet" href="assets/css/components/global-player.css" />
+  <link rel="stylesheet" href="assets/css/components/timeline.css" />
+  <link rel="stylesheet" href="assets/css/components/counter.css" />
+  <link rel="stylesheet" href="assets/css/components/people.css" />
+  <link rel="stylesheet" href="assets/css/components/outro.css" />
+</head>
+<body>
+  <div id="a11y-live-region" class="sr-only" aria-live="polite"></div>
+
+  <div id="app-root">
+    <noscript>Este site precisa de JavaScript habilitado para funcionar.</noscript>
+  </div>
+
+  <!-- Núcleo (ordem importa: cada módulo depende do anterior estar definido) -->
+  <script src="assets/js/core/eventBus.js" defer></script>
+  <script src="assets/js/core/store.js" defer></script>
+  <script src="assets/js/core/dataLoader.js" defer></script>
+  <script src="assets/js/core/router.js" defer></script>
+  <script src="assets/js/core/a11y.js" defer></script>
+  <script src="assets/js/core/musicPlayer.js" defer></script>
+
+  <!-- Utilitários -->
+  <script src="assets/js/utils/dom.js" defer></script>
+  <script src="assets/js/utils/format.js" defer></script>
+  <script src="assets/js/utils/imageLoader.js" defer></script>
+  <script src="assets/js/utils/transitions.js" defer></script>
+  <script src="assets/js/utils/sound.js" defer></script>
+  <script src="assets/js/utils/carousel.js" defer></script>
+
+  <!-- Componentes -->
+  <script src="assets/js/components/IntroScreen.js" defer></script>
+  <script src="assets/js/components/Header.js" defer></script>
+  <script src="assets/js/components/HeroBanner.js" defer></script>
+  <script src="assets/js/components/Synopsis.js" defer></script>
+  <script src="assets/js/components/StoryInfo.js" defer></script>
+  <script src="assets/js/components/CategoryFilter.js" defer></script>
+  <script src="assets/js/components/Gallery.js" defer></script>
+  <script src="assets/js/components/AlbumGrid.js" defer></script>
+  <script src="assets/js/components/Lightbox.js" defer></script>
+  <script src="assets/js/components/Moments.js" defer></script>
+  <script src="assets/js/components/EpisodeList.js" defer></script>
+  <script src="assets/js/components/EpisodeDetail.js" defer></script>
+  <script src="assets/js/components/SoundtrackList.js" defer></script>
+  <script src="assets/js/components/SoundtrackAlbumDetail.js" defer></script>
+  <script src="assets/js/components/GlobalPlayer.js" defer></script>
+  <script src="assets/js/components/Timeline.js" defer></script>
+  <script src="assets/js/components/TimeCounter.js" defer></script>
+  <script src="assets/js/components/PeopleSection.js" defer></script>
+  <script src="assets/js/components/HomeScreen.js" defer></script>
+  <script src="assets/js/components/OutroScreen.js" defer></script>
+
+  <!-- Bootstrap -->
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

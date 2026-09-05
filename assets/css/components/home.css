@@ -1,0 +1,24 @@
+/*
+  A tela "Home" reaproveita os estilos globais de layout (.home-section, em layout.css).
+  Este arquivo cobre ajustes específicos da composição da home: espaçamento entre o
+  hero e o restante do conteúdo, e os estilos da seção de Sinopse/elenco.
+*/
+.home-hero-wrap { margin-bottom: var(--space-6); }
+
+.synopsis__text {
+  padding: 0 var(--space-4);
+  max-width: 80ch;
+}
+.synopsis__cast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-4);
+  padding: 0 var(--space-4);
+}
+.synopsis__cast-card {
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+.synopsis__cast-role { color: var(--color-accent); font-size: 0.85rem; }

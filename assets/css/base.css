@@ -1,0 +1,103 @@
+/* Reset e estilos globais */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 var(--space-3);
+}
+
+p { margin: 0 0 var(--space-3); color: var(--color-text-muted); }
+img { max-width: 100%; display: block; }
+button { font-family: inherit; cursor: pointer; }
+a { color: var(--color-accent); }
+
+/* Utilitários */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.is-hidden { display: none !important; }
+
+/* Foco de teclado consistente com a identidade visual (dourado sobre preto),
+   sempre visível — nunca remove o outline padrão sem substituí-lo. */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.section-title {
+  font-size: clamp(1.4rem, 2vw + 1rem, 2rem);
+  margin-bottom: var(--space-4);
+  padding: 0 var(--space-4);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: transform var(--transition-fast), background var(--transition-fast);
+}
+.btn:hover { transform: translateY(-2px); }
+.btn--primary { background: var(--color-accent); color: #1a1509; }
+.btn--primary:hover { background: var(--color-accent-strong); }
+.btn--ghost { background: transparent; border-color: var(--color-border); color: var(--color-text); }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-4);
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-elevated);
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.chip.is-active { background: var(--color-accent); color: #1a1509; border-color: var(--color-accent); }
+
+/* Tela de aviso (protocolo file:// ou erro de carregamento) */
+.local-server-notice {
+  max-width: 640px;
+  margin: 10vh auto;
+  padding: var(--space-5);
+  background: var(--color-bg-elevated);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+.local-server-notice pre {
+  background: #000;
+  padding: var(--space-3);
+  border-radius: var(--radius-sm);
+  overflow-x: auto;
+}
+.local-server-notice code { font-family: "Courier New", monospace; }
+.local-server-notice--error { border-color: var(--color-danger); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

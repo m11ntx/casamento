@@ -1,0 +1,7 @@
+Versões otimizadas (~2200px, JPEG qualidade 85) das fotos, geradas
+automaticamente por tools/optimize_full.py a partir dos originais em
+assets/img/photos/full/ — é o que o lightbox carrega ao ampliar uma foto
+(campo "full" em data/gallery.json).
+
+Não edite os arquivos aqui manualmente: eles são sobrescritos toda vez que o
+script roda de novo.

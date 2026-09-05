@@ -1,0 +1,65 @@
+/*
+  Design tokens — identidade visual própria do projeto.
+  Paleta "cinema íntimo": preto quente, dourado champanhe e vinho profundo.
+  Evite copiar cores/tipografia de plataformas de streaming existentes;
+  ajuste estes valores para a identidade do casal.
+*/
+:root {
+  /* Cores */
+  --color-bg: #0d0c10;
+  --color-bg-elevated: #16141b;
+  --color-bg-overlay: rgba(8, 7, 10, 0.92);
+  --color-text: #f5f1ea;
+  --color-text-muted: #b9b3ac;
+  --color-accent: #c9a15a;
+  --color-accent-strong: #e0bd7e;
+  --color-secondary: #8a3b52;
+  --color-border: rgba(245, 241, 234, 0.12);
+  --color-success: #6fae8c;
+  /* Ajustado para atingir >= 4.5:1 de contraste sobre o fundo escuro em
+     textos pequenos (WCAG AA) — o tom anterior (#c1594f) ficava em ~4.36:1. */
+  --color-danger: #d76a5f;
+
+  /* Cores da abertura cinematográfica (mais intensas que o restante do site,
+     usadas só na sequência de abertura — ver intro.css) */
+  --color-intro-red: #c9101f;
+  --color-intro-red-bright: #ff4550;
+  --color-intro-red-deep: #33050a;
+
+  /* Tipografia */
+  --font-display: Georgia, "Palatino Linotype", "Iowan Old Style", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Espaçamento (escala de 4/8px) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-6: 4rem;
+  --space-7: 6rem;
+
+  /* Formas e sombras */
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.5);
+
+  /* Transições */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 450ms ease;
+
+  /* Camadas */
+  --z-overlay: 100;
+  --z-notice: 200;
+
+  /* Espaço reservado para a barra fixa do player global (rodapé da Home) —
+     usado por modais (lightbox, grade de álbum, detalhe de episódio/álbum)
+     para o conteúdo nunca ficar escondido atrás dela. */
+  --global-player-reserve: 88px;
+
+  /* Largura de referência do conteúdo */
+  --container-max: 1200px;
+}

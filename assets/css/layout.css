@@ -1,0 +1,48 @@
+/* Estrutura de alto nível da aplicação */
+#app-root { min-height: 100vh; }
+#screen-root { width: 100%; }
+#overlay-root { position: relative; z-index: var(--z-overlay); }
+.overlay-slot.is-hidden { display: none; }
+
+.home-section {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4);
+}
+.home-section--filter {
+  padding-top: 0;
+}
+.home-section--tight {
+  padding-top: var(--space-3);
+  padding-bottom: var(--space-3);
+}
+
+/* Header e Hero são full-bleed: sem o padding/max-width genérico de
+   .home-section (o Header é sticky e o Hero precisa ocupar a largura toda). */
+.home-header-wrap { position: relative; z-index: 10; }
+.home-hero-wrap { position: relative; }
+
+/* Reserva espaço para a barra fixa do player global não cobrir o final da
+   página (ver HomeScreen.js). */
+.home-player-spacer { height: 88px; }
+
+/* Wrapper reutilizado pelo CategoryFilter */
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: 0 var(--space-4) var(--space-4);
+}
+
+/* Responsividade — desktop / tablet / smartphone */
+@media (max-width: 1024px) {
+  .home-section { padding: var(--space-5) var(--space-3); }
+}
+@media (max-width: 768px) {
+  .home-section { padding: var(--space-4) var(--space-3); }
+  .section-title { padding: 0; }
+  .category-filter { padding: 0 0 var(--space-4); }
+}
+@media (max-width: 480px) {
+  .home-section { padding: var(--space-3) var(--space-2); }
+}

@@ -1,0 +1,133 @@
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox__backdrop { position: absolute; inset: 0; background: var(--color-bg-overlay); }
+.lightbox__panel {
+  position: relative;
+  z-index: 1;
+  max-width: min(92vw, 1100px);
+  /* Nunca deixa o conteúdo (ex.: o botão "Ver todas") ficar escondido atrás
+     da barra fixa do player global. */
+  max-height: calc(92vh - var(--global-player-reserve));
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0 var(--space-2) var(--space-4);
+  box-sizing: border-box;
+}
+/* Palco: envolve a mídia + as setas, que ficam centralizadas na ALTURA DA
+   FOTO (não da tela toda) — evita que as setas fiquem flutuando por cima do
+   texto/botão abaixo quando a foto é mais baixa que a tela. */
+.lightbox__stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+.lightbox__media {
+  max-width: 100%;
+  max-height: 62vh;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+}
+.lightbox__media-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+}
+.lightbox__video {
+  max-width: 100%;
+  max-height: 62vh;
+  background: #000;
+}
+.lightbox__media-error { color: var(--color-danger); font-size: 0.85rem; }
+
+.lightbox__info {
+  max-width: 70ch;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.lightbox__counter {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-1);
+}
+.lightbox__title { color: var(--color-text); font-size: 1.2rem; margin-bottom: var(--space-1); }
+.lightbox__description { color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: var(--space-1); }
+.lightbox__date { color: var(--color-accent); font-size: 0.8rem; margin-bottom: 0; }
+.lightbox__view-all {
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: var(--space-3);
+  min-height: 44px;
+  padding: var(--space-2) var(--space-4);
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: rgba(245, 241, 234, 0.06);
+  color: var(--color-text);
+  font-size: 0.85rem;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+.lightbox__view-all:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+.lightbox__close {
+  position: absolute;
+  top: -2.75rem;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  font-size: 1.5rem;
+}
+/* Agora posicionadas relativas ao .lightbox__stage (só a altura da foto),
+   não mais fixas na tela inteira. */
+.lightbox__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  color: var(--color-text);
+  border: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.lightbox__nav--prev { left: var(--space-2); }
+.lightbox__nav--next { right: var(--space-2); }
+
+@media (max-width: 768px) {
+  /* Mantém >= 44px mesmo no mobile (mínimo recomendado de alvo de toque). */
+  .lightbox__nav { width: 44px; height: 44px; }
+  .lightbox__media,
+  .lightbox__video { max-height: 50vh; }
+  .lightbox__close { top: -2.25rem; }
+}
+
+@media (max-width: 380px) {
+  .lightbox__view-all { font-size: 0.78rem; padding: var(--space-2) var(--space-3); }
+}

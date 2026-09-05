@@ -1,0 +1,14 @@
+{
+  "partner1": {
+    "name": "Aline",
+    "role": "Esposa",
+    "bio": ""
+  },
+  "partner2": {
+    "name": "Julio",
+    "role": "Esposo",
+    "bio": ""
+  },
+  "relationshipStartDate": "2005-08-19T00:00:00-03:00",
+  "weddingDate": "2014-09-06T00:00:00-03:00"
+}

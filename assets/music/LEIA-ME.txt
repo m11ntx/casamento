@@ -1,0 +1,25 @@
+Coloque aqui os arquivos MP3 da trilha sonora, com os nomes referenciados em
+data/soundtrack.json, no campo "file" de cada faixa — atualmente:
+
+  track-01.mp3
+  track-02.mp3
+  track-03.mp3
+  track-04.mp3
+  track-05.mp3
+
+Para adicionar uma nova faixa:
+1. Coloque o MP3 aqui (ex.: track-06.mp3).
+2. Adicione um novo objeto em data/soundtrack.json com id, title, artist,
+   file (o caminho para o MP3), cover (capa, opcional — sem ela usa o
+   placeholder), description e order (posição na lista; não precisa ser
+   sequencial nem bater com a ordem do arquivo, só a ordem relativa importa).
+3. Pronto — nenhum arquivo de código precisa ser tocado.
+
+Nenhum arquivo de áudio real está incluído neste momento — apenas a estrutura
+e os metadados de exemplo. Enquanto os arquivos não existirem, o player mostra
+um aviso amigável ("Áudio indisponível") em vez de falhar silenciosamente.
+
+Importante: a música da abertura cinematográfica (o "riser" que toca ao tocar
+em "Toque para começar") é totalmente separada desta trilha sonora — é um som
+sintetizado em código (assets/js/utils/sound.js), não um arquivo MP3, e nunca
+aparece nesta lista.

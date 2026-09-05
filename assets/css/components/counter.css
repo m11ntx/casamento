@@ -1,0 +1,13 @@
+.time-counter { text-align: center; }
+.time-counter__block { display: inline-block; margin: 0 var(--space-5) var(--space-4); }
+.time-counter__label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+.time-counter__value {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2vw + 1rem, 2rem);
+  color: var(--color-accent);
+}

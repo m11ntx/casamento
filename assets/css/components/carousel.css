@@ -1,0 +1,51 @@
+/*
+  Carrossel horizontal reutilizável. Scroll nativo (funciona com gesto de
+  toque em qualquer dispositivo móvel, sem JS extra) e SEM barra de rolagem
+  visível em nenhum navegador.
+*/
+.carousel {
+  position: relative;
+}
+.carousel__track {
+  display: flex;
+  gap: var(--space-3);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  padding: var(--space-1) var(--space-4) var(--space-2);
+  scrollbar-width: none; /* Firefox */
+}
+.carousel__track::-webkit-scrollbar { display: none; } /* Chrome, Safari, Edge */
+.carousel__track > * { scroll-snap-align: start; flex: 0 0 auto; }
+
+.carousel__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity var(--transition-fast), background var(--transition-fast);
+}
+.carousel:hover .carousel__arrow,
+.carousel__arrow:focus-visible {
+  opacity: 1;
+}
+.carousel__arrow:hover { background: rgba(0, 0, 0, 0.8); }
+.carousel__arrow--prev { left: var(--space-2); }
+.carousel__arrow--next { right: var(--space-2); }
+
+/* Em dispositivos sem hover (touch), as setas nunca ajudam — o gesto de
+   arrastar já resolve, e mostrá-las só ocuparia espaço. */
+@media (hover: none) {
+  .carousel__arrow { display: none; }
+}

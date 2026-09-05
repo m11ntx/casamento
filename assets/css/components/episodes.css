@@ -1,0 +1,103 @@
+.episode-card {
+  width: 260px;
+  text-align: left;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0;
+  overflow: hidden;
+  color: var(--color-text);
+  transition: transform var(--transition-fast);
+}
+.episode-card:hover,
+.episode-card:focus-visible { transform: translateY(-4px); }
+.episode-card__cover-wrap { position: relative; aspect-ratio: 16 / 9; }
+.episode-card__cover { width: 100%; height: 100%; object-fit: cover; }
+.episode-card__index {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.7rem;
+}
+.episode-card__play-badge {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: var(--color-text);
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+.episode-card:hover .episode-card__play-badge,
+.episode-card:focus-visible .episode-card__play-badge { opacity: 1; }
+.episode-card__title,
+.episode-card__date,
+.episode-card__subtitle { padding: 0 var(--space-3); }
+.episode-card__title { margin-top: var(--space-2); font-size: 1rem; }
+.episode-card__date { font-size: 0.75rem; color: var(--color-accent); margin-bottom: 0; }
+.episode-card__subtitle { padding-bottom: var(--space-3); font-size: 0.85rem; }
+
+@media (max-width: 480px) {
+  .episode-card { width: 220px; }
+}
+
+.episode-detail {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.episode-detail__backdrop { position: absolute; inset: 0; background: var(--color-bg-overlay); }
+.episode-detail__panel {
+  position: relative;
+  z-index: 1;
+  max-width: min(90vw, 720px);
+  max-height: calc(90vh - var(--global-player-reserve));
+  overflow-y: auto;
+  background: var(--color-bg-elevated);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-lg);
+}
+.episode-detail__cover {
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-4);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+.episode-detail__media-wrap { width: 100%; }
+/*
+  Vídeos de celular raramente batem exatamente 16:9 — forçar essa proporção
+  com object-fit:cover corta a imagem. Aqui o vídeo usa a proporção real dele
+  (aspect-ratio:auto) com contain, então nunca corta, só ajusta a altura.
+*/
+.episode-detail__video {
+  aspect-ratio: auto;
+  object-fit: contain;
+  max-height: 70vh;
+  background: #000;
+}
+.episode-detail__media-error {
+  color: var(--color-danger);
+  font-size: 0.85rem;
+  margin-top: calc(-1 * var(--space-3));
+  margin-bottom: var(--space-3);
+}
+.episode-detail__close {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  font-size: 1.5rem;
+}

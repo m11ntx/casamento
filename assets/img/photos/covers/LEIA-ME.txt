@@ -1,0 +1,6 @@
+Capa de cada álbum/categoria (~1920px), gerada automaticamente por
+tools/organize_photos.py — usada no Hero (config.json → hero.image) e como
+pôster dos episódios/vídeos (data/episodes.json → cover).
+
+Não edite os arquivos aqui manualmente: eles são sobrescritos toda vez que o
+script roda de novo.

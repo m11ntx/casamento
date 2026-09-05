@@ -1,0 +1,31 @@
+Os vídeos do casamento de Aline e Julio estão aqui, numerados na ordem em que
+aparecem na seção "Episódios" (cada vídeo vira um card/episódio — ver
+data/episodes.json, campo "video"):
+
+  1-Clip Aline e Julio.mp4    (convertido do .mpg original — ver nota abaixo)
+  2-Casamento (1).mp4
+  3-Casamento (2).mp4
+  4-Casamento (3).mp4
+  5-Casamento (4).mp4
+  6-Casamento (5).mp4
+  7-Casamento (6).mp4
+  8-Casamento (7).mp4
+
+Sobre o "1-Clip Aline e Júlio.mpg" original:
+Esse arquivo estava em MPEG-2 (padrão de DVD) — nenhum navegador consegue
+reproduzir esse formato nativamente. Foi convertido para "1-Clip Aline e
+Julio.mp4" (H.264 + AAC) usando ffmpeg, e é essa versão .mp4 que o site usa.
+O .mpg original continua nesta pasta, mas está no .gitignore (não vai para o
+GitHub) — guarde-o em backup separado se quiser preservar o arquivo original.
+
+Para adicionar um novo vídeo:
+1. Coloque o arquivo aqui, em formato MP4 (H.264 + AAC) — é o único formato
+   com suporte garantido em todos os navegadores.
+2. Adicione (ou edite) um objeto em data/episodes.json com id, order, title,
+   subtitle, cover (imagem de capa/pôster), date, video (caminho do MP4) e
+   synopsis.
+3. Pronto — nenhum arquivo de código precisa ser tocado.
+
+Enquanto um arquivo de vídeo não existir (ou não for suportado pelo
+navegador), o card de episódio mostra um aviso amigável em vez de falhar
+silenciosamente.

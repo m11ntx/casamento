@@ -1,0 +1,92 @@
+.album-grid {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+}
+.album-grid__backdrop { position: absolute; inset: 0; background: var(--color-bg-overlay); }
+.album-grid__panel {
+  position: relative;
+  z-index: 1;
+  width: min(1100px, 100%);
+  max-height: calc(88vh - var(--global-player-reserve));
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-elevated);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+.album-grid__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5) var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+.album-grid__title { font-size: 1.3rem; margin-bottom: var(--space-1); }
+.album-grid__count { font-size: 0.85rem; color: var(--color-text-muted); margin: 0; }
+.album-grid__close {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  font-size: 1.4rem;
+  border-radius: 50%;
+}
+.album-grid__close:hover { background: var(--color-bg); }
+
+.album-grid__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-5);
+  overflow-y: auto;
+}
+.album-grid__thumb {
+  position: relative;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background: var(--color-bg);
+  transition: transform var(--transition-fast);
+}
+.album-grid__thumb:hover,
+.album-grid__thumb:focus-visible { transform: scale(1.05); }
+.album-grid__thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+.album-grid__thumb-img.is-loaded { opacity: 1; }
+.album-grid__play-badge {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: var(--color-text);
+  background: rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+.album-grid__sentinel { grid-column: 1 / -1; height: 1px; }
+
+@media (max-width: 480px) {
+  .album-grid { padding: var(--space-2); }
+  .album-grid__header { padding: var(--space-3) var(--space-4) var(--space-2); }
+  .album-grid__grid { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); padding: var(--space-3) var(--space-4); }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "marco-01",
+    "date": "2016-08-10",
+    "title": "Primeiro encontro",
+    "description": "Texto placeholder: descreva rapidamente este marco.",
+    "photoId": "foto-001"
+  },
+  {
+    "id": "marco-02",
+    "date": "2016-11-02",
+    "title": "Início do namoro",
+    "description": "Texto placeholder: descreva rapidamente este marco.",
+    "photoId": "foto-002"
+  },
+  {
+    "id": "marco-03",
+    "date": "2017-12-24",
+    "title": "Apresentação às famílias",
+    "description": "Texto placeholder: descreva rapidamente este marco.",
+    "photoId": "foto-004"
+  },
+  {
+    "id": "marco-04",
+    "date": "2018-09-05",
+    "title": "Primeira grande viagem juntos",
+    "description": "Texto placeholder: descreva rapidamente este marco.",
+    "photoId": "foto-005"
+  },
+  {
+    "id": "marco-05",
+    "date": "2019-06-15",
+    "title": "Pedido de casamento",
+    "description": "Texto placeholder: descreva rapidamente este marco.",
+    "photoId": "foto-006"
+  },
+  {
+    "id": "marco-06",
+    "date": "2020-02-14",
+    "title": "Casamento",
+    "description": "Texto placeholder: descreva rapidamente este marco.",
+    "photoId": "foto-008"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ep-01",
+    "order": 1,
+    "title": "Episódio 1: Clipe de Aline & Julio",
+    "subtitle": "O vídeo do casamento",
+    "cover": "assets/img/photos/covers/casamento.jpg",
+    "date": "2014-09-06",
+    "video": "assets/video/clips/1-Clip%20Aline%20e%20Julio.mp4",
+    "synopsis": "Um vídeo do casamento de Aline e Julio, celebrado em 06 de setembro de 2014."
+  },
+  {
+    "id": "ep-02",
+    "order": 2,
+    "title": "Episódio 2: Casamento — Parte 1",
+    "subtitle": "Um momento do grande dia",
+    "cover": "assets/img/photos/covers/casamento.jpg",
+    "date": "2014-09-06",
+    "video": "assets/video/clips/2-Casamento%20%281%29.mp4",
+    "synopsis": "Um vídeo do casamento de Aline e Julio, celebrado em 06 de setembro de 2014."
+  },
+  {
+    "id": "ep-03",
+    "order": 3,
+    "title": "Episódio 3: Casamento — Parte 2",
+    "subtitle": "Um momento do grande dia",
+    "cover": "assets/img/photos/covers/casamento.jpg",
+    "date": "2014-09-06",
+    "video": "assets/video/clips/3-Casamento%20%282%29.mp4",
+    "synopsis": "Um vídeo do casamento de Aline e Julio, celebrado em 06 de setembro de 2014."
+  },
+  {
+    "id": "ep-04",
+    "order": 4,
+    "title": "Episódio 4: Casamento — Parte 3",
+    "subtitle": "Um momento do grande dia",
+    "cover": "assets/img/photos/covers/casamento.jpg",
+    "date": "2014-09-06",
+    "video": "assets/video/clips/4-Casamento%20%283%29.mp4",
+    "synopsis": "Um vídeo do casamento de Aline e Julio, celebrado em 06 de setembro de 2014."
+  },
+  {
+    "id": "ep-05",
+    "order": 5,
+    "title": "Episódio 5: Casamento — Parte 4",
+    "subtitle": "Um momento do grande dia",
+    "cover": "assets/img/photos/covers/casamento.jpg",
+    "date": "2014-09-06",
+    "video": "assets/video/clips/5-Casamento%20%284%29.mp4",
+    "synopsis": "Um vídeo do casamento de Aline e Julio, celebrado em 06 de setembro de 2014."
+  },
+  {
+    "id": "ep-06",
+    "order": 6,
+    "title": "Episódio 6: Casamento — Parte 5",
+    "subtitle": "Um momento do grande dia",
+    "cover": "assets/img/photos/covers/casamento.jpg",
+    "date": "2014-09-06",
+    "video": "assets/video/clips/6-Casamento%20%285%29.mp4",
+    "synopsis": "Um vídeo do casamento de Aline e Julio, celebrado em 06 de setembro de 2014."
+  },
+  {
+    "id": "ep-07",
+    "order": 7,
+    "title": "Episódio 7: Casamento — Parte 6",
+    "subtitle": "Um momento do grande dia",
+    "cover": "assets/img/photos/covers/casamento.jpg",
+    "date": "2014-09-06",
+    "video": "assets/video/clips/7-Casamento%20%286%29.mp4",
+    "synopsis": "Um vídeo do casamento de Aline e Julio, celebrado em 06 de setembro de 2014."
+  },
+  {
+    "id": "ep-08",
+    "order": 8,
+    "title": "Episódio 8: Casamento — Parte 7",
+    "subtitle": "Um momento do grande dia",
+    "cover": "assets/img/photos/covers/casamento.jpg",
+    "date": "2014-09-06",
+    "video": "assets/video/clips/8-Casamento%20%287%29.mp4",
+    "synopsis": "Um vídeo do casamento de Aline e Julio, celebrado em 06 de setembro de 2014."
+  }
+]

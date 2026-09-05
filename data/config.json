@@ -1,0 +1,22 @@
+{
+  "site": {
+    "title": "Aline & Julio — Nossa História",
+    "subtitle": "Baseado em fatos reais",
+    "description": "Aline & Julio celebram 12 anos de casados em 6 de setembro — a história dessa família, contada em fotos, do casamento em 2014 até hoje.",
+    "language": "pt-BR"
+  },
+  "hero": {
+    "image": "assets/img/photos/covers/casamento.jpg",
+    "alt": "Aline e Julio no dia do casamento"
+  },
+  "features": {
+    "showTimeline": true,
+    "showSoundtrack": true,
+    "showPeople": true,
+    "showEpisodes": true
+  },
+  "credits": {
+    "outroMessage": "Obrigado por assistir aos primeiros episódios da nossa história. Os próximos capítulos ainda estão sendo escritos — e esperamos que você continue nessa plateia.",
+    "producedBy": "Aline & Julio Produções"
+  }
+}

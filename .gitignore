@@ -1,0 +1,19 @@
+# Fotos originais em alta resolução (câmera) — o site usa as versões já
+# otimizadas em assets/img/photos/full-web/, thumb/ e covers/, geradas a
+# partir destas. Mantenha uma cópia de segurança separada destes arquivos
+# (HD externo, nuvem) — eles NÃO são enviados ao GitHub por este .gitignore,
+# então não fazem parte do histórico do repositório.
+assets/img/photos/full/
+
+# Vídeo original em MPEG-2 (.mpg) — formato sem suporte nativo em nenhum
+# navegador. Foi convertido para .mp4 (H.264/AAC), que é o que o site usa e
+# que fica no repositório. Mantenha o .mpg original em backup separado, se
+# quiser preservá-lo.
+assets/video/clips/1-Clip Aline e Júlio.mpg
+
+# Arquivos de sistema/cache que vieram junto com pastas de música copiadas do
+# Windows Media Player — não são usados pelo site.
+**/Thumbs.db
+**/desktop.ini
+**/AlbumArt_*.jpg
+**/AlbumArtSmall.jpg

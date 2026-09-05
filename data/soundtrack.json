@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "track-020",
+    "title": "I Won't Give Up",
+    "artist": "Jason Mraz",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Jason%20Mraz%20-%20I%20Won%27t%20Give%20Up.mp3",
+    "cover": null,
+    "order": 1
+  },
+  {
+    "id": "track-002",
+    "title": "Make You Feel My Love",
+    "artist": "Adele",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Adele%20-%20Make%20You%20Feel%20My%20Love.mp3",
+    "cover": null,
+    "order": 2
+  },
+  {
+    "id": "track-003",
+    "title": "One and Only",
+    "artist": "Adele",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Adele%20-%20One%20and%20Only.mp3",
+    "cover": null,
+    "order": 3
+  },
+  {
+    "id": "track-004",
+    "title": "Always",
+    "artist": "Bon Jovi",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Bon%20Jovi%20-%20Always.mp3",
+    "cover": null,
+    "order": 4
+  },
+  {
+    "id": "track-005",
+    "title": "When I Was Your Man",
+    "artist": "Bruno Mars",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Bruno%20Mars%20-%20When%20I%20Was%20Your%20Man.mp3",
+    "cover": null,
+    "order": 5
+  },
+  {
+    "id": "track-006",
+    "title": "A Thousand Years",
+    "artist": "Christina Perri",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Christina%20Perri%20-%20A%20Thousand%20Years.mp3",
+    "cover": null,
+    "order": 6
+  },
+  {
+    "id": "track-007",
+    "title": "I Never Told You",
+    "artist": "Colbie Caillat",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Colbie%20Caillat%20-%20I%20Never%20Told%20You.mp3",
+    "cover": null,
+    "order": 7
+  },
+  {
+    "id": "track-008",
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Coldplay%20-%20Yellow.mp3",
+    "cover": null,
+    "order": 8
+  },
+  {
+    "id": "track-009",
+    "title": "My Sacrifice",
+    "artist": "Creed",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Creed%20-%20My%20Sacrifice.mp3",
+    "cover": null,
+    "order": 9
+  },
+  {
+    "id": "track-010",
+    "title": "With Arms Wide Open",
+    "artist": "Creed",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Creed%20-%20With%20Arms%20Wide%20Open.mp3",
+    "cover": null,
+    "order": 10
+  },
+  {
+    "id": "track-011",
+    "title": "This Year's Love",
+    "artist": "David Gray",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/David%20Gray%20-%20This%20Year%27s%20Love.mp3",
+    "cover": null,
+    "order": 11
+  },
+  {
+    "id": "track-012",
+    "title": "Tears In Heaven",
+    "artist": "Eric Clapton",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Eric%20Clapton%20-%20Tears%20In%20Heaven.mp3",
+    "cover": null,
+    "order": 12
+  },
+  {
+    "id": "track-013",
+    "title": "More Than Words",
+    "artist": "Extreme",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Extreme%20-%20More%20Than%20Words.mp3",
+    "cover": null,
+    "order": 13
+  },
+  {
+    "id": "track-014",
+    "title": "Times like these",
+    "artist": "Foo Fighters",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Foo%20Fighters%20-%20Times%20like%20these.mp3",
+    "cover": null,
+    "order": 14
+  },
+  {
+    "id": "track-015",
+    "title": "Walking After You",
+    "artist": "Foo Fighters",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Foo%20Fighters%20-%20Walking%20After%20You.mp3",
+    "cover": null,
+    "order": 15
+  },
+  {
+    "id": "track-016",
+    "title": "Iris",
+    "artist": "Goo Goo Dolls",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Goo%20Goo%20Dolls%20-%20Iris.mp3",
+    "cover": null,
+    "order": 16
+  },
+  {
+    "id": "track-017",
+    "title": "I Won't Give Up (tradução)",
+    "artist": "Jason Mraz",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/I%20Won%27t%20Give%20Up%20%28traducao%29%20-%20Jason%20Mraz.mp3",
+    "cover": null,
+    "order": 17
+  },
+  {
+    "id": "track-018",
+    "title": "You're Beautiful",
+    "artist": "James Blunt",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/James%20Blunt%20-%20You%27re%20Beautiful.mp3",
+    "cover": null,
+    "order": 18
+  },
+  {
+    "id": "track-019",
+    "title": "93 Million Miles",
+    "artist": "Jason Mraz",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Jason%20Mraz%20-%2093%20Million%20Miles.mp3",
+    "cover": null,
+    "order": 19
+  },
+  {
+    "id": "track-001",
+    "title": "Here Without You",
+    "artist": "3 Doors Down",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/3%20Doors%20Down%20-%20Here%20Without%20You.mp3",
+    "cover": null,
+    "order": 20
+  },
+  {
+    "id": "track-021",
+    "title": "I'm Yours",
+    "artist": "Jason Mraz",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Jason%20Mraz%20-%20I%27m%20Yours.mp3",
+    "cover": null,
+    "order": 21
+  },
+  {
+    "id": "track-022",
+    "title": "Daughters",
+    "artist": "John Mayer",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/John%20Mayer%20-%20Daughters.mp3",
+    "cover": null,
+    "order": 22
+  },
+  {
+    "id": "track-023",
+    "title": "Free Fallin'",
+    "artist": "John Mayer",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/John%20Mayer%20-%20Free%20Fallin%27.mp3",
+    "cover": null,
+    "order": 23
+  },
+  {
+    "id": "track-024",
+    "title": "Your Body Is A Wonderland",
+    "artist": "John Mayer",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/John%20Mayer%20-%20Your%20Body%20Is%20A%20Wonderland.mp3",
+    "cover": null,
+    "order": 24
+  },
+  {
+    "id": "track-025",
+    "title": "Far Away",
+    "artist": "Nickelback",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Nickelback%20-%20Far%20Away.mp3",
+    "cover": null,
+    "order": 25
+  },
+  {
+    "id": "track-026",
+    "title": "Photograph",
+    "artist": "Nickelback",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Nickelback%20-%20Photograph.mp3",
+    "cover": null,
+    "order": 26
+  },
+  {
+    "id": "track-027",
+    "title": "Savin' Me",
+    "artist": "Nickelback",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Nickelback%20-%20Savin%27%20Me.mp3",
+    "cover": null,
+    "order": 27
+  },
+  {
+    "id": "track-028",
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Oasis%20-%20Wonderwall.mp3",
+    "cover": null,
+    "order": 28
+  },
+  {
+    "id": "track-029",
+    "title": "Last Kiss",
+    "artist": "Pearl Jam",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Pearl%20Jam%20-%20Last%20Kiss.mp3",
+    "cover": null,
+    "order": 29
+  },
+  {
+    "id": "track-030",
+    "title": "Miss You Love",
+    "artist": "Silverchair",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Silverchair%20-%20Miss%20You%20Love.mp3",
+    "cover": null,
+    "order": 30
+  },
+  {
+    "id": "track-031",
+    "title": "Perfect",
+    "artist": "Simple Plan",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Simple%20Plan%20-%20Perfect.mp3",
+    "cover": null,
+    "order": 31
+  },
+  {
+    "id": "track-032",
+    "title": "Untitled",
+    "artist": "Simple Plan",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Simple%20Plan%20-%20Untitled.mp3",
+    "cover": null,
+    "order": 32
+  },
+  {
+    "id": "track-033",
+    "title": "Welcome To My Life",
+    "artist": "Simple Plan",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/Simple%20Plan%20-%20Welcome%20To%20My%20Life.mp3",
+    "cover": null,
+    "order": 33
+  },
+  {
+    "id": "track-034",
+    "title": "Wherever You Will Go",
+    "artist": "The Calling",
+    "album": "Diversas",
+    "file": "assets/music/Diversas/The%20Calling%20-%20Wherever%20You%20Will%20Go.mp3",
+    "cover": null,
+    "order": 34
+  },
+  {
+    "id": "track-035",
+    "title": "Tudo É Paixão",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/01.Edson%20%26%20Hudson%20-%20Tudo%20%C3%89%20Paix%C3%A3o.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 35
+  },
+  {
+    "id": "track-036",
+    "title": "Nasci Pra Te Amar Demais",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/02.Edson%20%26%20Hudson%20-%20Nasci%20Pra%20Te%20Amar%20Demais.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 36
+  },
+  {
+    "id": "track-037",
+    "title": "Frio da Madrugada",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/03.Edson%20%26%20Hudson%20-%20Frio%20da%20Madrugada.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 37
+  },
+  {
+    "id": "track-038",
+    "title": "Parabéns Pro Amor de Nós Dois",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/04.Edson%20%26%20Hudson%20-%20Parab%C3%A9ns%20Pro%20Amor%20de%20N%C3%B3s%20Dois.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 38
+  },
+  {
+    "id": "track-039",
+    "title": "Pra Não Chorar",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/05.Edson%20%26%20Hudson%20-%20Pra%20N%C3%A3o%20Chorar.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 39
+  },
+  {
+    "id": "track-040",
+    "title": "Aumenta o Som",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/06.Edson%20%26%20Hudson%20-%20Aumenta%20o%20Som.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 40
+  },
+  {
+    "id": "track-041",
+    "title": "Levo Minha Paixão",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/07.Edson%20%26%20Hudson%20-%20Levo%20Minha%20Paix%C3%A3o.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 41
+  },
+  {
+    "id": "track-042",
+    "title": "Roupas no Armário",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/08.Edson%20%26%20Hudson%20-%20Roupas%20no%20Arm%C3%A1rio.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 42
+  },
+  {
+    "id": "track-043",
+    "title": "Comendo um Filé",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/09.Edson%20%26%20Hudson%20-%20Comendo%20um%20Fil%C3%A9.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 43
+  },
+  {
+    "id": "track-044",
+    "title": "Tropé",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/10.Edson%20%26%20Hudson%20-%20Trop%C3%A9.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 44
+  },
+  {
+    "id": "track-045",
+    "title": "Foi Você Quem Trouxe",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/11.Edson%20%26%20Hudson%20-%20Foi%20Voc%C3%AA%20Quem%20Trouxe.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 45
+  },
+  {
+    "id": "track-046",
+    "title": "Deixa Eu Chorar",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/12.Edson%20%26%20Hudson%20-%20Deixa%20Eu%20Chorar.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 46
+  },
+  {
+    "id": "track-047",
+    "title": "Presente do Céu",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/13.Edson%20%26%20Hudson%20-%20Presente%20do%20C%C3%A9u.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 47
+  },
+  {
+    "id": "track-048",
+    "title": "Uma Lágrima no Olhar",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/14.Edson%20%26%20Hudson%20-%20Uma%20L%C3%A1grima%20no%20Olhar.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 48
+  },
+  {
+    "id": "track-049",
+    "title": "Vem Também",
+    "artist": "Edson & Hudson",
+    "album": "Despedida",
+    "file": "assets/music/Edson%20e%20Hudson/Despedida/15.Edson%20%26%20Hudson%20-%20Vem%20Tamb%C3%A9m.mp3",
+    "cover": "assets/music/Edson%20e%20Hudson/Despedida/Folder.jpg",
+    "order": 49
+  },
+  {
+    "id": "track-050",
+    "title": "É amor demais",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/01.%20%C3%89%20amor%20demais.mp3",
+    "cover": null,
+    "order": 50
+  },
+  {
+    "id": "track-051",
+    "title": "Eu não sei dizer que eu não te amo (ao vivo)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/02.%20Eu%20n%C3%A3o%20sei%20dizer%20que%20eu%20n%C3%A3o%20te%20amo%20%28ao%20vivo%29.mp3",
+    "cover": null,
+    "order": 51
+  },
+  {
+    "id": "track-052",
+    "title": "Foi Deus (ao vivo)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/03.%20Foi%20Deus%20%28ao%20vivo%29.mp3",
+    "cover": null,
+    "order": 52
+  },
+  {
+    "id": "track-053",
+    "title": "Fala (ao vivo)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/04.%20Fala%20%28ao%20vivo%29.mp3",
+    "cover": null,
+    "order": 53
+  },
+  {
+    "id": "track-054",
+    "title": "Pra não chorar",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/05.%20Pra%20n%C3%A3o%20chorar.mp3",
+    "cover": null,
+    "order": 54
+  },
+  {
+    "id": "track-055",
+    "title": "Tá no meu coração",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/06.%20T%C3%A1%20no%20meu%20cora%C3%A7%C3%A3o.mp3",
+    "cover": null,
+    "order": 55
+  },
+  {
+    "id": "track-056",
+    "title": "Galera coração (ao vivo)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/07.%20Galera%20cora%C3%A7%C3%A3o%20%28ao%20vivo%29.mp3",
+    "cover": null,
+    "order": 56
+  },
+  {
+    "id": "track-057",
+    "title": "Hoje eu posso chorar (ao vivo)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/08.%20Hoje%20eu%20posso%20chorar%20%28ao%20vivo%29.mp3",
+    "cover": null,
+    "order": 57
+  },
+  {
+    "id": "track-058",
+    "title": "Hoje eu posso chorar (ao vivo)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/09.%20Hoje%20eu%20posso%20chorar%20%28ao%20vivo%29.mp3",
+    "cover": null,
+    "order": 58
+  },
+  {
+    "id": "track-059",
+    "title": "Eu quero mais (ao vivo)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/10.%20Eu%20quero%20mais%20%28ao%20vivo%29.mp3",
+    "cover": null,
+    "order": 59
+  },
+  {
+    "id": "track-060",
+    "title": "Blusa vermelha (ao vivo)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/11.%20Blusa%20vermelha%20%28ao%20vivo%29.mp3",
+    "cover": null,
+    "order": 60
+  },
+  {
+    "id": "track-061",
+    "title": "Esqueça que eu te amo",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/12.%20Esque%C3%A7a%20que%20eu%20te%20amo.mp3",
+    "cover": null,
+    "order": 61
+  },
+  {
+    "id": "track-062",
+    "title": "Foi você quem trouxe (I want to know what love is)",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/13.%20Foi%20voc%C3%AA%20quem%20trouxe%20%28I%20want%20to%20know%20what%20love%20is%29.mp3",
+    "cover": null,
+    "order": 62
+  },
+  {
+    "id": "track-063",
+    "title": "Imprevisível (ao vivo) - part. esp. Bruno e Marrone",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/14.%20Imprevis%C3%ADvel%20%28ao%20vivo%29%20-%20part.%20esp.%20Bruno%20e%20Marrone.mp3",
+    "cover": null,
+    "order": 63
+  },
+  {
+    "id": "track-064",
+    "title": "Não tem dia, não tem hora",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/15.%20N%C3%A3o%20tem%20dia%2C%20n%C3%A3o%20tem%20hora.mp3",
+    "cover": null,
+    "order": 64
+  },
+  {
+    "id": "track-065",
+    "title": "Hei, você aí",
+    "artist": "Edson & Hudson",
+    "album": "Essencial",
+    "file": "assets/music/Edson%20e%20Hudson/Essencial/16.%20Hei%2C%20voc%C3%AA%20a%C3%AD.mp3",
+    "cover": null,
+    "order": 65
+  },
+  {
+    "id": "track-066",
+    "title": "Meu Amor é 10",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/01%20Meu%20Amor%20%C3%A9%2010.mp3",
+    "cover": null,
+    "order": 66
+  },
+  {
+    "id": "track-067",
+    "title": "Porta Retrato",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/02%20Porta%20Retrato.mp3",
+    "cover": null,
+    "order": 67
+  },
+  {
+    "id": "track-068",
+    "title": "Dona do Meu Coração",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/03%20Dona%20do%20Meu%20Cora%C3%A7%C3%A3o.mp3",
+    "cover": null,
+    "order": 68
+  },
+  {
+    "id": "track-069",
+    "title": "Rosana",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/04%20Rosana.mp3",
+    "cover": null,
+    "order": 69
+  },
+  {
+    "id": "track-070",
+    "title": "Vou Tomá Um Pingão (Part Leo Canhoto & Robertinho)",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/05%20Vou%20Tom%C3%A1%20Um%20Ping%C3%A3o%20%28Part%20Leo%20Canhoto%20%26%20Robertinho%29.mp3",
+    "cover": null,
+    "order": 70
+  },
+  {
+    "id": "track-071",
+    "title": "Mulher De Porre é Mole",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/06%20Mulher%20De%20Porre%20%C3%A9%20Mole.mp3",
+    "cover": null,
+    "order": 71
+  },
+  {
+    "id": "track-072",
+    "title": "Faço um Circo Pra Você",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/07%20Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA.mp3",
+    "cover": null,
+    "order": 72
+  },
+  {
+    "id": "track-073",
+    "title": "Rabo de Saia - Me Bate, Me Xinga",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/08%20Rabo%20de%20Saia%20-%20Me%20Bate%2C%20Me%20Xinga.mp3",
+    "cover": null,
+    "order": 73
+  },
+  {
+    "id": "track-074",
+    "title": "Doi o Peito",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/09%20Doi%20o%20Peito.mp3",
+    "cover": null,
+    "order": 74
+  },
+  {
+    "id": "track-075",
+    "title": "Baby, Tonight (Part Marcio & Douglas)",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/10%20Baby%2C%20Tonight%20%28Part%20Marcio%20%26%20Douglas%29.mp3",
+    "cover": null,
+    "order": 75
+  },
+  {
+    "id": "track-076",
+    "title": "Me Liga, Beijo Tchau",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/11%20Me%20Liga%2C%20Beijo%20Tchau.mp3",
+    "cover": null,
+    "order": 76
+  },
+  {
+    "id": "track-077",
+    "title": "Muleke Biscate",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/12%20Muleke%20Biscate.mp3",
+    "cover": null,
+    "order": 77
+  },
+  {
+    "id": "track-078",
+    "title": "Só Penso Em Você",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/13%20S%C3%B3%20Penso%20Em%20Voc%C3%AA.mp3",
+    "cover": null,
+    "order": 78
+  },
+  {
+    "id": "track-079",
+    "title": "Azul",
+    "artist": "Edson & Hudson",
+    "album": "Faço um Circo Pra Você",
+    "file": "assets/music/Edson%20e%20Hudson/Fa%C3%A7o%20um%20Circo%20Pra%20Voc%C3%AA/14%20Azul.mp3",
+    "cover": null,
+    "order": 79
+  },
+  {
+    "id": "track-080",
+    "title": "Noite Fria",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/01%20Noite%20Fria%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 80
+  },
+  {
+    "id": "track-081",
+    "title": "No Meu Coração",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/02%20No%20Meu%20Cora%C3%A7%C3%A3o%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 81
+  },
+  {
+    "id": "track-082",
+    "title": "Angústia Suprema",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/03%20Ang%C3%BAstia%20Suprema%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 82
+  },
+  {
+    "id": "track-083",
+    "title": "Linda Menina",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/04%20Linda%20Menina%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 83
+  },
+  {
+    "id": "track-084",
+    "title": "Logo Após ao Temporal",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/05%20Logo%20Ap%C3%B3s%20ao%20Temporal%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 84
+  },
+  {
+    "id": "track-085",
+    "title": "Mesmo Assim",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/06%20Mesmo%20Assim%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 85
+  },
+  {
+    "id": "track-086",
+    "title": "Rara Calma",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/07%20Rara%20Calma%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 86
+  },
+  {
+    "id": "track-087",
+    "title": "Apenas Uma Canção de Amor",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/08%20Apenas%20Uma%20Can%C3%A7%C3%A3o%20de%20Amor%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 87
+  },
+  {
+    "id": "track-088",
+    "title": "As Dores do Silêncio",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/09%20As%20Dores%20do%20Sil%C3%AAncio%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 88
+  },
+  {
+    "id": "track-089",
+    "title": "Te Louvo Em Verdade",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/10%20Te%20Louvo%20Em%20Verdade%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 89
+  },
+  {
+    "id": "track-090",
+    "title": "Chance",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/11%20Chance%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 90
+  },
+  {
+    "id": "track-091",
+    "title": "Anjos das Ruas",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/12%20Anjos%20das%20Ruas%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 91
+  },
+  {
+    "id": "track-092",
+    "title": "Muitos Choram",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/13%20Muitos%20Choram%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 92
+  },
+  {
+    "id": "track-093",
+    "title": "Amor Sincero",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/14%20Amor%20Sincero%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 93
+  },
+  {
+    "id": "track-094",
+    "title": "Como Eu Te Vejo",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/15%20Como%20Eu%20Te%20Vejo%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 94
+  },
+  {
+    "id": "track-095",
+    "title": "Sem Você",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/16%20Sem%20Voc%C3%AA%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 95
+  },
+  {
+    "id": "track-096",
+    "title": "Obrigado Por Estar Aqui",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/17%20Obrigado%20Por%20Estar%20Aqui%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 96
+  },
+  {
+    "id": "track-097",
+    "title": "Do Alto Da Pedra",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/18%20Do%20Alto%20Da%20Pedra%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 97
+  },
+  {
+    "id": "track-098",
+    "title": "Monte Inverno",
+    "artist": "Rosa de Saron",
+    "album": "Acústico e Ao Vivo 2009",
+    "file": "assets/music/Rosa%20de%20Saron/Ac%C3%BAstico%20e%20Ao%20Vivo%202009/19%20Monte%20Inverno%20-%20Rosa%20de%20Saron.mp3",
+    "cover": null,
+    "order": 98
+  },
+  {
+    "id": "track-099",
+    "title": "O Sol Da Meia Noite",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/01%20-%20O%20Sol%20Da%20Meia%20Noite.mp3",
+    "cover": null,
+    "order": 99
+  },
+  {
+    "id": "track-100",
+    "title": "Tudo O Que É Meu",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/02%20-%20Tudo%20O%20Que%20%C3%89%20Meu.mp3",
+    "cover": null,
+    "order": 100
+  },
+  {
+    "id": "track-101",
+    "title": "Projecto Juno (Oh Oh!)",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/03%20-%20Projecto%20Juno%20%28Oh%20Oh%21%29.mp3",
+    "cover": null,
+    "order": 101
+  },
+  {
+    "id": "track-102",
+    "title": "Menos de Um Segundo",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/04%20-%20Menos%20de%20Um%20Segundo.mp3",
+    "cover": null,
+    "order": 102
+  },
+  {
+    "id": "track-103",
+    "title": "Folhas do Chão",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/05%20-%20Folhas%20do%20Ch%C3%A3o.mp3",
+    "cover": null,
+    "order": 103
+  },
+  {
+    "id": "track-104",
+    "title": "Mais Uma Vez",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/06%20-%20Mais%20Uma%20Vez.mp3",
+    "cover": null,
+    "order": 104
+  },
+  {
+    "id": "track-105",
+    "title": "Meu Abandono",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/07%20-%20Meu%20Abandono.mp3",
+    "cover": null,
+    "order": 105
+  },
+  {
+    "id": "track-106",
+    "title": "Rara Calma (Part. Maurício Manieri)",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/08%20-%20Rara%20Calma%20%28Part.%20Maur%C3%ADcio%20Manieri%29.mp3",
+    "cover": null,
+    "order": 106
+  },
+  {
+    "id": "track-107",
+    "title": "Além Do Meu Jardim",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/09%20-%20Al%C3%A9m%20Do%20Meu%20Jardim.mp3",
+    "cover": null,
+    "order": 107
+  },
+  {
+    "id": "track-108",
+    "title": "Minha Triste Imperfeição",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/10%20-%20Minha%20Triste%20Imperfei%C3%A7%C3%A3o.mp3",
+    "cover": null,
+    "order": 108
+  },
+  {
+    "id": "track-109",
+    "title": "Real Em Mim",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/11%20-%20Real%20Em%20Mim.mp3",
+    "cover": null,
+    "order": 109
+  },
+  {
+    "id": "track-110",
+    "title": "Parusia",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/12%20-%20Parusia.mp3",
+    "cover": null,
+    "order": 110
+  },
+  {
+    "id": "track-111",
+    "title": "Liberdade",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/13%20-%20Liberdade.mp3",
+    "cover": null,
+    "order": 111
+  },
+  {
+    "id": "track-112",
+    "title": "Lembranças",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/14%20-%20Lembran%C3%A7as.mp3",
+    "cover": null,
+    "order": 112
+  },
+  {
+    "id": "track-113",
+    "title": "Mais Além",
+    "artist": "Rosa de Saron",
+    "album": "Horizonte Vivo Distante",
+    "file": "assets/music/Rosa%20de%20Saron/Horizonte%20Vivo%20Distante/15%20-%20Mais%20Al%C3%A9m.mp3",
+    "cover": null,
+    "order": 113
+  }
+]

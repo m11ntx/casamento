@@ -1,0 +1,16 @@
+.outro-screen {
+  text-align: center;
+  padding: var(--space-7) var(--space-4);
+}
+.outro-screen__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-accent);
+  font-size: 0.8rem;
+}
+.outro-screen__message {
+  font-size: clamp(1.4rem, 3vw + 1rem, 2.2rem);
+  max-width: 640px;
+  margin: var(--space-3) auto;
+}
+.outro-screen__credit { color: var(--color-text-muted); margin-bottom: var(--space-4); }

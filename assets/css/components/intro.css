@@ -1,0 +1,229 @@
+.intro-screen {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  background: #000;
+}
+.intro-screen__backdrop {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 35%, var(--color-intro-red-deep) 0%, #000 70%);
+  opacity: 0.7;
+}
+
+/* Barras de "letterbox" — moldura cinematográfica discreta e genérica. */
+.intro-screen__letterbox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: clamp(10px, 4vh, 48px);
+  background: #000;
+  z-index: 2;
+}
+.intro-screen__letterbox--top { top: 0; }
+.intro-screen__letterbox--bottom { bottom: 0; }
+
+/* Portão inicial: necessário para o som sincronizado (autoplay de áudio
+   exige um gesto do usuário) — toque/clique aqui dá início à sequência. */
+.intro-screen__gate {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  padding: var(--space-3) var(--space-6);
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(245, 241, 234, 0.35);
+  background: rgba(0, 0, 0, 0.45);
+  color: var(--color-text);
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  animation: intro-gate-pulse 1800ms ease-in-out infinite;
+}
+@keyframes intro-gate-pulse {
+  0%, 100% { opacity: 0.75; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+.intro-screen--started .intro-screen__gate,
+.intro-screen--skipped .intro-screen__gate {
+  display: none;
+}
+
+/* Brilho ambiente atrás da cortina — pulsa suavemente o tempo todo (mesmo
+   antes do toque), para a tela não ficar "morta"; ao iniciar a sequência,
+   passa a um brilho mais intenso e constante. */
+.intro-screen__glow {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: radial-gradient(circle at 50% 45%, rgba(201, 16, 31, 0.6) 0%, transparent 60%);
+  opacity: 0.16;
+  pointer-events: none;
+  animation: intro-glow-idle 3200ms ease-in-out infinite alternate;
+}
+@keyframes intro-glow-idle {
+  from { opacity: 0.12; }
+  to { opacity: 0.32; }
+}
+.intro-screen--playing .intro-screen__glow {
+  animation: intro-glow-in 900ms ease-out forwards;
+}
+@keyframes intro-glow-in {
+  from { opacity: 0.3; }
+  to { opacity: 0.65; }
+}
+
+/*
+  Cortina de fitas rasgadas — cobre toda a tela e fica se mexendo sutilmente
+  (balançando) desde que a página carrega, inclusive antes do toque, para a
+  tela inicial ter vida. Depois do toque, essa mesma movimentação continua
+  por cerca de 2,6s (ver HOLD_DURATION_MS em IntroScreen.js) antes de a
+  cortina começar a se abrir:
+    - a maioria das fitas voa para fora da tela — metade para cima, metade
+      para baixo — com bordas irregulares (como papel rasgado);
+    - as DUAS fitas centrais não saem da tela: encolhem exatamente onde cada
+      inicial vai aparecer e desaparecem no instante em que a letra
+      correspondente "pousa" ali.
+*/
+.intro-screen__curtain {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  display: flex;
+  pointer-events: none;
+}
+.intro-screen__strip {
+  flex: 1 0 auto;
+  height: 100%;
+  background: linear-gradient(180deg, var(--color-intro-red-deep), var(--color-intro-red) 40%, var(--color-intro-red-bright) 55%, var(--color-intro-red) 70%, var(--color-intro-red-deep));
+  animation: intro-strip-idle var(--idle-duration, 2400ms) ease-in-out var(--idle-delay, 0ms) infinite alternate;
+}
+@keyframes intro-strip-idle {
+  from { transform: translate3d(0, 0, 0) rotate(0deg); }
+  to { transform: translate3d(0, var(--idle-drift-y, 10px), 0) rotate(var(--idle-rotate, 1deg)); }
+}
+
+/* Fitas comuns: quando a cortina se abre, saem da tela (metade sobe, metade
+   desce — ver --strip-direction-y), substituindo o balanço ocioso. */
+.intro-screen--playing .intro-screen__strip:not(.intro-screen__strip--letter) {
+  animation: intro-strip-fly 700ms cubic-bezier(0.6, 0, 0.2, 1) var(--strip-delay, 0ms) forwards;
+}
+@keyframes intro-strip-fly {
+  from { transform: translate3d(0, 0, 0) rotate(0deg); }
+  to { transform: translate3d(var(--strip-drift, 0px), var(--strip-direction-y, -115%), 0) rotate(var(--strip-rotate, 0deg)); }
+}
+
+/* As duas fitas "letra": encolhem no lugar e somem (não saem da tela) */
+.intro-screen--playing .intro-screen__strip--letter {
+  animation: intro-strip-collapse 850ms cubic-bezier(0.4, 0, 0.2, 1) var(--strip-delay, 0ms) forwards;
+}
+@keyframes intro-strip-collapse {
+  0% { transform: translate3d(var(--strip-center-drift, 0px), 0, 0) scale(1, 1); opacity: 1; }
+  65% { transform: translate3d(var(--strip-center-drift, 0px), 0, 0) scale(0.4, 0.3); opacity: 1; }
+  100% { transform: translate3d(var(--strip-center-drift, 0px), 0, 0) scale(0.4, 0.3); opacity: 0; }
+}
+
+/* Palco central */
+.intro-screen__stage {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opening-sequence {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-4);
+}
+.opening-sequence__logo {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(3rem, 10vw, 6.5rem);
+}
+.opening-sequence__initial {
+  background: linear-gradient(100deg, var(--color-intro-red) 30%, var(--color-intro-red-bright) 45%, var(--color-intro-red) 60%);
+  background-size: 220% 100%;
+  background-position: 0 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+  transform: scale(0.8);
+}
+.opening-sequence__ampersand {
+  color: rgba(245, 241, 234, 0.55);
+  font-size: 0.55em;
+  padding: 0 var(--space-1);
+  opacity: 0;
+}
+
+/* Cada inicial "pousa" pouco antes de a fita central correspondente terminar
+   de encolher e sumir — ver timings em intro-strip-collapse acima. */
+.intro-screen--playing .opening-sequence__initial {
+  background-position: 200% 0;
+  animation: intro-letter-land 280ms cubic-bezier(0.34, 1.56, 0.64, 1) 1080ms forwards,
+             intro-shine 1100ms ease 1360ms forwards;
+}
+.intro-screen--playing .opening-sequence__initial--second {
+  animation: intro-letter-land 280ms cubic-bezier(0.34, 1.56, 0.64, 1) 1125ms forwards,
+             intro-shine 1100ms ease 1410ms forwards;
+}
+.intro-screen--playing .opening-sequence__ampersand {
+  animation: intro-letter-land 260ms ease 1170ms forwards;
+}
+@keyframes intro-letter-land {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes intro-shine {
+  from { background-position: 200% 0; }
+  to { background-position: -20% 0; }
+}
+
+/* Estado "abertura pulada" (clique em Pular, ou visita repetida na mesma
+   sessão): mostra o resultado final na hora, sem cortina/brilho/som. */
+.intro-screen--skipped .intro-screen__curtain,
+.intro-screen--skipped .intro-screen__glow {
+  display: none !important;
+}
+.intro-screen--skipped .opening-sequence__initial,
+.intro-screen--skipped .opening-sequence__ampersand {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  background-position: 0 0 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro-screen__gate,
+  .intro-screen__curtain,
+  .intro-screen__glow { display: none !important; }
+  .opening-sequence__initial,
+  .opening-sequence__ampersand {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    background-position: 0 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .opening-sequence__logo { font-size: clamp(2.4rem, 16vw, 4rem); }
+  .intro-screen__gate { padding: var(--space-3) var(--space-5); font-size: 0.9rem; }
+}

@@ -1,0 +1,3 @@
+Reservado para ícones de interface (SVG) que venham a substituir os símbolos de texto
+atualmente usados nos controles (▶ ❚❚ ⏮ ⏭ ✕ ‹ › ▲), caso deseje um visual mais refinado
+no futuro. Nenhum ícone é necessário para o funcionamento atual do site.
