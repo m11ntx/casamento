@@ -17,3 +17,7 @@ assets/video/clips/1-Clip Aline e Júlio.mpg
 **/desktop.ini
 **/AlbumArt_*.jpg
 **/AlbumArtSmall.jpg
+
+# Screenshots gerados localmente durante validação manual de UX mobile —
+# não fazem parte do site.
+.mobile-check/

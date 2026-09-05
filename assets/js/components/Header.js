@@ -15,6 +15,7 @@
   }
 
   var NAV_LINKS = [
+    { label: 'Linha do Tempo', target: 'home-timeline' },
     { label: 'Galeria', target: 'home-gallery' },
     { label: 'Episódios', target: 'home-episodes' },
     { label: 'Trilha Sonora', target: 'home-soundtrack' }

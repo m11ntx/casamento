@@ -3,15 +3,15 @@
   todas as seções da página em containers próprios.
 
   Ordem: Header (fixo) → Hero (com botão Assistir) → Sinopse → Informações da
-  história → Galeria (cards de álbum) → Episódios (carrossel) →
-  Trilha sonora (cards de álbum) → Tempo juntos → Encerramento.
+  história → Linha do Tempo → Galeria (cards de álbum) → Episódios
+  (carrossel) → Trilha sonora (cards de álbum) → Tempo juntos → Encerramento.
 
-  Momentos, Linha do Tempo, Pessoas Importantes (Elenco de Apoio) e o filtro
-  de Categorias foram removidos da Home — os componentes (Moments.js,
-  Timeline.js, PeopleSection.js, CategoryFilter.js) continuam no projeto, só
-  não são mais montados aqui; reativar é só voltar a chamar mountSection()
-  para eles. O CategoryFilter ficou redundante depois que a Galeria virou
-  cards de álbum (cada card já representa uma categoria).
+  Momentos, Pessoas Importantes (Elenco de Apoio) e o filtro de Categorias
+  continuam removidos da Home — os componentes (Moments.js, PeopleSection.js,
+  CategoryFilter.js) continuam no projeto, só não são mais montados aqui;
+  reativar é só voltar a chamar mountSection() para eles. O CategoryFilter
+  ficou redundante depois que a Galeria virou cards de álbum (cada card já
+  representa uma categoria).
 */
 (function (App) {
   'use strict';
@@ -35,6 +35,7 @@
       mountSection(App.components.HeroBanner, 'home-hero-wrap');
       mountSection(App.components.Synopsis, 'home-section');
       mountSection(App.components.StoryInfo, 'home-section home-section--tight');
+      mountSection(App.components.Timeline, 'home-section');
       mountSection(App.components.Gallery, 'home-section');
       mountSection(App.components.EpisodeList, 'home-section');
       mountSection(App.components.SoundtrackList, 'home-section');
