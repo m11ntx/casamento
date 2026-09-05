@@ -51,12 +51,12 @@
       var description = '';
       if (weddingDate) {
         var diff = format.diffParts(weddingDate, new Date());
-        var parts = [];
-        if (diff.years) parts.push(diff.years + (diff.years === 1 ? ' ano' : ' anos'));
-        if (diff.months) parts.push(diff.months + (diff.months === 1 ? ' mês' : ' meses'));
-        if (!diff.years && diff.days) parts.push(diff.days + (diff.days === 1 ? ' dia' : ' dias'));
-        description = parts.length
-          ? parts.join(' e ') + ' depois de tudo isso, a história continua.'
+        // Arredonda para o ano completo mais próximo (em vez de "X anos e Y
+        // meses") — nos dias ao redor de um aniversário de casamento, já é
+        // assim que se conta ("12 anos"), não "11 anos e 11 meses".
+        var totalYears = Math.round(diff.totalDays / 365.25);
+        description = totalYears > 0
+          ? totalYears + (totalYears === 1 ? ' ano' : ' anos') + ' depois de tudo isso, a história continua.'
           : 'A história continua.';
       }
       return dom.el('li', { class: 'timeline__item timeline__item--today' }, [
